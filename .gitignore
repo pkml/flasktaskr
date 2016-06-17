@@ -1,2 +1,6 @@
 *.pyc
 *.db
+myEnv
+__pycache__
+*.DS_Store
+venv
