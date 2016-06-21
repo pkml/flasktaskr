@@ -1,16 +1,17 @@
-#project/_config.py
+# project/_config.py
+
 
 import os
 
 
+# grab the folder where this script lives
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 DATABASE = 'flasktaskr.db'
-WTF_CSRF_ENABLED = True
-SECRET_KEY = 'A8UFS0GOQf9g2UPGIUABP92Ppaiouf49yusagf8IU)*&F&T3po&^%E&$S&%RH'
+CSRF_ENABLED = True
+SECRET_KEY = 'my_precious'
 
-
-# define the full path for the db
+# define the full path for the database
 DATABASE_PATH = os.path.join(basedir, DATABASE)
 
 # the database uri
